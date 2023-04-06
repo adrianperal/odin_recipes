@@ -23,16 +23,19 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    padding: 3%;
 }
 
 .container nav a {
-    text-decoration: none;
-    color: #0055ff;
+    color: #7e7e7e;
     font-weight: bold;
 }
 
 .header {
     text-align: center;
+    color: #00ffb3;
+    width: 100%;
 }
 
 .header img {
@@ -48,23 +51,25 @@ body {
 .ingredients,
 .steps {
     text-align: center;
+    margin: 0 auto;
 }
 
 .recipes {
     background-color: chocolate;
-    margin: auto 10%;
-    padding: 5px;
-    width: auto;
+    padding: 5px 10px;
+    border-radius: 10px;
 }
 
-.recipes a {
+.recipes .recipe {
     background-color: goldenrod;
-    color: black;
-    border: 1px solid black;
-    text-decoration: none;
-    display: block;
-    width: 100%;
-    padding: 10px 0;
-    margin: 10px 0;
+    border-radius: 10px;
+    color: #006eff;
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
 
+a{
+    text-decoration: none;
 }
