@@ -58,8 +58,7 @@ body nav a {
     color: black;
     border: 1px solid black;
     text-decoration: none;
-    display: inline-block;
-    text-align: center;
+    display: block;
     width: 100%;
     padding: 10px 0;
     margin: 10px 0;
